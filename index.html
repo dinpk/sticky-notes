@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<title>Sticky Notes</title>
+	<meta charset="utf-8">
+	<link rel="Stylesheet" href="styles.css" type="text/css">
+	<script src="script.js"></script>
+</head>
+<body onload="listStickyNotes();">
+	<form id="sticky_form">
+		Title<br>
+		<input type="text" id="sticky_note_title">
+		<br><br>
+		Note<br>
+		<textarea id="sticky_note_text"></textarea>
+		<br><br>
+		<div id="form_buttons">
+			<input type="button" onclick="saveStickyNote();" value="Save Note" > 
+			&nbsp; &nbsp; &nbsp; &nbsp; 
+			<input type="button" onclick="deleteAllStickyNotes();" value="Delete All Notes">
+		</div>
+	</form>
+	<div id="sticky_notes_container"></div>
+</body>
+</html>
+

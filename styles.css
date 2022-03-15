@@ -1,0 +1,99 @@
+body {
+	margin:0;
+}
+h3, p {
+	margin:0 0 5px 0;
+}
+
+#sticky_form {
+	width:100%;
+	padding:15px;
+	background-color:PowderBlue;
+	box-sizing:border-box;
+}
+
+#form_buttons {
+	display:flex;
+	justify-content: space-between;
+}
+
+input[type=button] {
+	font-size:95%;
+	padding:10px;
+	display:block;
+}
+
+#sticky_note_title {
+	width:98%;
+	padding:10px 15px 10px 15px;
+}
+#sticky_note_text {
+	width:98%;
+	min-height:50px;
+	padding:10px 15px 10px 15px;
+}
+
+#sticky_notes_container {
+	padding:20px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	gap:10px;
+}
+
+.sticky_note_box {
+	position:relative;
+	box-sizing:border-box;
+	width:250px;
+	min-height:100px;
+	padding:10px;
+	background-color:white;
+}
+
+.sticky_note_box h3 {
+	margin:0 0 4px 0;
+}
+
+.delete_x {
+	position:absolute;
+	top:5px;
+	right:5px;
+	cursor:pointer;
+}
+
+#note0 {background-color:Gold;}
+#note1 {background-color:Aquamarine;}
+#note2 {background-color:LightGreen;}
+#note3 {background-color:BurlyWood;}
+#note4 {background-color:Cyan;}
+#note5 {background-color:SkyBlue;}
+#note6 {background-color:GreenYellow;}
+#note7 {background-color:LightPink;}
+#note8 {background-color:Turquoise;}
+#note9 {background-color:Beige;}
+#note10 {background-color:Plum;}
+#note11 {background-color:DarkKhaki;}
+#note12 {background-color:rgb(231,192,255)}
+#note13 {background-color:rgb(255,249,171)}
+#note14 {background-color:rgb(178,242,213)}
+#note15 {background-color:rgb(173,157,172)}
+#note16 {background-color:rgb(233,185,152)}
+#note17 {background-color:rgb(236,150,140)}
+#note18 {background-color:rgb(216,155,193)}
+#note19 {background-color:rgb(151,244,188)}
+#note20 {background-color:rgb(228,217,207)}
+#note21 {background-color:rgb(237,161,162)}
+#note22 {background-color:rgb(209,253,151)}
+#note23 {background-color:rgb(172,197,203)}
+#note24 {background-color:rgb(220,250,207)}
+#note25 {background-color:rgb(239,251,160)}
+#note26 {background-color:rgb(173,203,178)}
+#note27 {background-color:rgb(215,174,187)}
+#note28 {background-color:rgb(194,163,250)}
+#note29 {background-color:rgb(157,164,224)}
+#note30 {background-color:rgb(181,168,193)}
+#note31 {background-color:rgb(250,211,190)}
+#note32 {background-color:rgb(199,248,212)}
+#note33 {background-color:rgb(205,251,154)}
+#note34 {background-color:rgb(249,225,217)}
+#note35 {background-color:rgb(243,183,205)}
